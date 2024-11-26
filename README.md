@@ -1,18 +1,18 @@
-Getting Started
-Executing the Program
-To run this program, use Remix, an online Solidity IDE. Follow these steps:
+# Getting Started  
 
-1. Go to Remix
-Visit the Remix website at https://remix.ethereum.org.
+## Executing the Program  
+To run this program, use Remix, an online Solidity IDE. Follow these steps:  
 
-2. Create a New File
-Click the "+" icon in the left-hand sidebar and save the file with a .sol extension (e.g., LibrarySystem.sol).
+### 1. Go to Remix  
+Visit the Remix website at [https://remix.ethereum.org](https://remix.ethereum.org).  
 
-3. Copy and Paste Code
-Copy the following code into the file:
+### 2. Create a New File  
+Click the `+` icon in the left-hand sidebar and save the file with a `.sol` extension (e.g., `LibrarySystem.sol`).  
 
-solidity
-Copy code
+### 3. Copy and Paste Code  
+Copy the following code into the file:  
+
+```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
 
@@ -89,20 +89,21 @@ contract LibrarySystem {
 
     receive() external payable {}
 }
-4. Compile the Code
-
-5. Go to the Solidity Compiler tab.
+```
+### 4. Compile the Code
+Go to the Solidity Compiler tab.
 Ensure the compiler version is set to 0.8.13 (or later).
 Click Compile LibrarySystem.sol.
-Deploy the Contract
 
-6. Go to the Deploy & Run Transactions tab.
-Select the "Environment" (e.g., Remix VM (London)).
+### 5. Deploy the Contract
+Go to the Deploy & Run Transactions tab.
+Select the Environment (e.g., Remix VM (London)).
 Choose the LibrarySystem contract from the dropdown menu.
 Click Deploy.
-Interact with the Contract
 
+### 6. Interact with the Contract
 Use the available functions:
+
 addBook: Add a book to the library.
 borrowBook: Borrow books.
 returnBook: Return borrowed books.
